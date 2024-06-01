@@ -1,0 +1,194 @@
+/* (C) 2084 LenCo. All rights reserved. */
+
+body {
+  min-height: 50vh;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+	background: linear-gradient(-45deg, #5B3838, #7a3714);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+path {
+  fill: transparent;
+}
+
+#test {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(129, 15, 15, 0.7);
+  transition: background-color .1s;
+}
+#test:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+#test:hover:after {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(45deg, rgba(129, 15, 15, 0.9), rgba(129, 15, 15, 0.7), rgba(129, 15, 15, 0.9));
+  background-size: 200% 200%;
+  background-position: 0% 100%;
+  animation-name: test_hover;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+@keyframes test_hover {
+  from {
+    background-position: 0% 100%;
+  }
+  to {
+    background-position: 100% 0%;
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@font-face {
+    font-family: "Neue-Machina";
+    src: url("../resources/fonts/neue-machina.ttf");
+}
+
+@font-face {
+    font-family: "DMSerifDisplay";
+    src: url("../resources/fonts/DMSerifDisplay-Regular.ttf");
+}
+
+h1, h2, h3, h4, h5, h6, p {
+font-family: "DMSerifDisplay";
+color: white;
+}
+
+
+.mach {
+font-family: "Neue-Machina";
+color: white;
+}
+
+
+.card {
+  max-width: 50rem;
+  background: #000;
+  margin: 0 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  border-radius: 0.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card2 {
+  max-width: 50rem;
+  background: #323232;
+  margin: 0 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  border-radius: 0.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card3 {
+  max-width: 50rem;
+  background: hsl(259, 71%, 28%);
+  margin: 0 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  border-radius: 0.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card4 {
+  max-width: 50rem;
+  background: hsl(131, 39%, 22%);
+  margin: 0 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  border-radius: 0.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card5 {
+  max-width: 50rem;
+  background: hsl(0, 58%, 54%);
+  margin: 0 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  border-radius: 0.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ 
+.star {
+  font-size: 10vh;
+  color: white;
+  cursor: pointer;
+}
+
+.star2 {
+  font-size: 10vh;
+  color: white;
+}
+
+.review {
+  font-family: "Neue-Machina";
+}
+ 
+.one {
+  color: rgb(255, 0, 0);
+}
+ 
+.two {
+  color: rgb(255, 106, 0);
+}
+ 
+.three {
+  color: rgb(242, 255, 0);
+}
+ 
+.four {
+  color: rgb(140, 255, 0);
+}
+ 
+.five {
+  color: rgb(0, 26, 255);
+}
