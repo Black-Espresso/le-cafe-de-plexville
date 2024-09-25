@@ -1,2 +1,2 @@
-# le-cafe-of-plexville
-Le Café of Plexville website. (C) 2084 LenCo. All rights reserved.
+# le-cafe-de-plexville
+Le Cafe de Plexville website. (C) 2084 LenCo. All rights reserved.
