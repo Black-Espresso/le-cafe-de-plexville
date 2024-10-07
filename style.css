@@ -2,10 +2,10 @@
 
 body {
 	background: linear-gradient(61deg,#612424,#840000,#632d07,#dda169);
-  min-height: 50vh;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
+        min-height: 50vh;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
 	height: 100vh;
 	background-size: 850% 850%;
 	animation: gradient 15s ease infinite;
